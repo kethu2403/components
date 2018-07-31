@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 67.0.3396 (Windows 7 0.0.0)" package="" timestamp="2018-07-20T11:36:10" id="0" hostname="EBHVR18-20" tests="0" errors="1" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"/>
+  </properties>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getLeavePending called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeaveId promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'leaveId details', LeaveDetails{leaveId: 1, empId: 1000, noOfDays: 2, startDate: '2019-06-24', endDate: '2019-06-25', leaveType: 'EL', leaveStatus: 'PENDING', leaveReason: 'SICK', leaveAppliedDate: '2019-06-21', managerComments: 'APP'}
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getLeavePending called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeaveId promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'leaveId details', LeaveDetails{leaveId: 1, empId: 1000, noOfDays: 2, startDate: '2019-06-24', endDate: '2019-06-25', leaveType: 'EL', leaveStatus: 'PENDING', leaveReason: 'SICK', leaveAppliedDate: '2019-06-21', managerComments: 'APP'}
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails called on Employee.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployees promise resolved : 2'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeaveHistory called on LeaveDetails.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeavePending called on LeaveDetails.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeavePending called on LeaveDetails.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getManagerPending called on LeaveDetails.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeavePending called on LeaveDetails.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getLeaveHistory called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeaveHistory promise resolved : 1'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'helloooo', [LeaveDetails{leaveId: 1, empId: 1000, noOfDays: 2, startDate: '2019-06-24', endDate: '2019-06-25', leaveType: 'EL', leaveStatus: 'PENDING', leaveReason: 'SICK', leaveAppliedDate: '2019-06-21', managerComments: 'APP'}]
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getLeavePending called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getLeaveHistory promise resolved : 1'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'helloooo', [LeaveDetails{leaveId: 1, empId: 1000, noOfDays: 2, startDate: '2019-06-24', endDate: '2019-06-25', leaveType: 'EL', leaveStatus: 'PENDING', leaveReason: 'SICK', leaveAppliedDate: '2019-06-21', managerComments: 'APP'}]
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployees called on employee.service'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getLeavePending called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'All employees', undefined
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'empId of all', undefined
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getManagerPending promise resolved : 1'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'bjbj', Employee{empId: 1000, empName: 'sai', empDate: '2019-03-24', managerId: 1000, empPhone: 9912140507, empDept: 'IT', empEmail: 'kethu@gmail.com', empLeaveAvailable: 30}
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'Mock getEmployees called'
+,PhantomJS 2.1.1 (Windows 7 0.0.0) LOG: 'getEmployeeDetails promise resolved : [object Object]'
+,Chrome 67.0.3396 (Windows 7 0.0.0) ERROR
+  Disconnectedundefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
